@@ -1,0 +1,37 @@
+@media(max-width: 1000px ){
+header{
+  height: 200px;
+  text-align: center;
+}
+.header-left{
+  text-align: center;
+  float: none;
+}
+.header-right{
+  text-align: center;
+}
+}
+
+@media(max-width: 670px ){
+  header{
+    height: 200px;
+    text-align: center;
+  }
+  .header-left{
+    text-align: center;
+    float: none;
+    margin: 40px auto 0px;
+    width: 75%;
+  }
+  .header-right{
+    text-align: center;
+    float: none;
+    margin-right: 20px;
+    line-height: 5px;
+  }
+  .top-wrapper{
+    background-image: url("https://www.pakutaso.com/shared/img/thumb/N866_hahaoyanoyubiwonigiruakago_TP_V4.jpg");
+    background-size: cover;
+    height: 736px;
+  }
+}
